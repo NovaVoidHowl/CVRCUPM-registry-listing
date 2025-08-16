@@ -1,143 +1,143 @@
 {
-    "name": "NovaVoidHowl Package Registry",
-    "description": "A custom Unity package registry",
-    "packages": [
+  "name": "NovaVoidHowl Package Registry",
+  "description": "A custom Unity package registry",
+  "packages": [
+    {
+      "name": "com.novavoidhowl.z3y-shader-picker",
+      "display_name": "z3y shader version picker",
+      "description": "Simple shader version picker for z3y shaders, to help you pick the right shader release for your Unity project.",
+      "git_url": "https://github.com/NovaVoidHowl/z3y-Shader-Picker.git",
+      "keywords": [
+        "z3y",
+        "unity",
+        "tools"
+      ],
+      "author": "NovaVoidHowl",
+      "license": "MIT",
+      "versions": [
         {
-            "name": "com.novavoidhowl.z3y-shader-picker",
-            "display_name": "z3y shader version picker",
-            "description": "Simple shader version picker for z3y shaders, to help you pick the right shader release for your Unity project.",
-            "git_url": "https://github.com/NovaVoidHowl/z3y-Shader-Picker.git",
-            "keywords": [
-                "z3y",
-                "unity",
-                "tools"
-            ],
-            "author": "NovaVoidHowl",
-            "license": "MIT",
-            "versions": [
-                {
-                    "version": "1.0.3",
-                    "git_tag": "1.0.3",
-                    "is_prerelease": false,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.textmeshpro": "3.0.6"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "uk.novavoidhowl.dev.cvrfury",
-            "display_name": "CVRFury",
-            "description": "The aim of this project is to create a tool kit that can process VRCFury supported content for use in Chillout VR.",
-            "git_url": "https://github.com/NovaVoidHowl/CVRFury.git",
-            "keywords": [
-                "CVRFury",
-                "cvr",
-                "unity",
-                "tools"
-            ],
-            "author": "NovaVoidHowl",
-            "license": "LGPL 2.1",
-            "versions": [
-                {
-                    "version": "0.231.0-alpha",
-                    "git_tag": "0.231.0-alpha",
-                    "is_prerelease": false,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.editorcoroutines": "1.0.0",
-                        "com.unity.nuget.newtonsoft-json": "3.1.0",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                },
-                {
-                    "version": "0.208.3-alpha",
-                    "git_tag": "0.208.3-alpha",
-                    "is_prerelease": false,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.editorcoroutines": "1.0.0",
-                        "com.unity.nuget.newtonsoft-json": "3.1.0",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "uk.novavoidhowl.dev.navmeshfollowersetup",
-            "display_name": "NavMesh Follower Setup",
-            "description": "Script to automate the setup of the components needed to make a nav mesh follower.",
-            "git_url": "https://github.com/NovaVoidHowl/NavMesh-Follower-Setup.git",
-            "keywords": [
-                "NMF",
-                "unity",
-                "tools"
-            ],
-            "author": "NovaVoidHowl",
-            "license": "LGPL 2.1",
-            "versions": [
-                {
-                    "version": "3.3.0",
-                    "git_tag": "3.3.0",
-                    "is_prerelease": false,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.nuget.newtonsoft-json": "3.0.2",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                },
-                {
-                    "version": "3.2.0",
-                    "git_tag": "3.2.0",
-                    "is_prerelease": false,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.nuget.newtonsoft-json": "3.0.2",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                },
-                {
-                    "version": "1.0.0",
-                    "git_tag": "1.0.0",
-                    "is_prerelease": false,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.nuget.newtonsoft-json": "3.0.2",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                },
-                {
-                    "version": "0.8.3-beta-rc3",
-                    "git_tag": "0.8.3-beta-rc3",
-                    "is_prerelease": true,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.nuget.newtonsoft-json": "3.0.2",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                },
-                {
-                    "version": "0.8.1-beta-rc2",
-                    "git_tag": "0.8.1-beta-rc2",
-                    "is_prerelease": true,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.nuget.newtonsoft-json": "3.0.2",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                },
-                {
-                    "version": "0.7.17-beta-rc1",
-                    "git_tag": "0.7.17-beta-rc1",
-                    "is_prerelease": true,
-                    "unity_version": "2021.3",
-                    "dependencies": {
-                        "com.unity.nuget.newtonsoft-json": "3.0.2",
-                        "com.unity.vectorgraphics": "2.0.0-preview.21"
-                    }
-                }
-            ]
+          "version": "1.0.3",
+          "git_tag": "1.0.3",
+          "is_prerelease": false,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.textmeshpro": "3.0.6"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "name": "uk.novavoidhowl.dev.cvrfury",
+      "display_name": "CVRFury",
+      "description": "The aim of this project is to create a tool kit that can process VRCFury supported content for use in Chillout VR.",
+      "git_url": "https://github.com/NovaVoidHowl/CVRFury.git",
+      "keywords": [
+        "CVRFury",
+        "cvr",
+        "unity",
+        "tools"
+      ],
+      "author": "NovaVoidHowl",
+      "license": "LGPL 2.1",
+      "versions": [
+        {
+          "version": "0.231.0-alpha",
+          "git_tag": "0.231.0-alpha",
+          "is_prerelease": false,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.editorcoroutines": "1.0.0",
+            "com.unity.nuget.newtonsoft-json": "3.1.0",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        },
+        {
+          "version": "0.208.3-alpha",
+          "git_tag": "0.208.3-alpha",
+          "is_prerelease": false,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.editorcoroutines": "1.0.0",
+            "com.unity.nuget.newtonsoft-json": "3.1.0",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uk.novavoidhowl.dev.navmeshfollowersetup",
+      "display_name": "NavMesh Follower Setup",
+      "description": "Script to automate the setup of the components needed to make a nav mesh follower.",
+      "git_url": "https://github.com/NovaVoidHowl/NavMesh-Follower-Setup.git",
+      "keywords": [
+        "NMF",
+        "unity",
+        "tools"
+      ],
+      "author": "NovaVoidHowl",
+      "license": "LGPL 2.1",
+      "versions": [
+        {
+          "version": "3.3.0",
+          "git_tag": "3.3.0",
+          "is_prerelease": false,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.0.2",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        },
+        {
+          "version": "3.2.0",
+          "git_tag": "3.2.0",
+          "is_prerelease": false,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.0.2",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        },
+        {
+          "version": "1.0.0",
+          "git_tag": "1.0.0",
+          "is_prerelease": false,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.0.2",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        },
+        {
+          "version": "0.8.3-beta-rc3",
+          "git_tag": "0.8.3-beta-rc3",
+          "is_prerelease": true,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.0.2",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        },
+        {
+          "version": "0.8.1-beta-rc2",
+          "git_tag": "0.8.1-beta-rc2",
+          "is_prerelease": true,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.0.2",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        },
+        {
+          "version": "0.7.17-beta-rc1",
+          "git_tag": "0.7.17-beta-rc1",
+          "is_prerelease": true,
+          "unity_version": "2021.3",
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.0.2",
+            "com.unity.vectorgraphics": "2.0.0-preview.21"
+          }
+        }
+      ]
+    }
+  ]
 }
