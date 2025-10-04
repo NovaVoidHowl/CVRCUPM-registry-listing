@@ -3,6 +3,28 @@
   "description": "A custom Unity package registry",
   "packages": [
     {
+      "name": "uk.novavoidhowl.dev.ace",
+      "display_name": "Animator Controller Editor",
+      "description": "An Editor tool and patcher to simplify, hasten, and improve your workflow with everything to do with Animator Controllers",
+      "git_url": "https://github.com/NovaVoidHowl/ACE.git",
+      "keywords": [
+        "animator contoller",
+        "unity",
+        "tools"
+      ],
+      "author": "NovaVoidHowl",
+      "license": "MIT",
+      "versions": [
+        {
+          "version": "0.0.2",
+          "git_tag": "0.0.2",
+          "is_prerelease": false,
+          "unity_version": "2021.3",
+          "dependencies": {}
+        }
+      ]
+    },
+    {
       "name": "com.novavoidhowl.z3y-shader-picker",
       "display_name": "z3y shader version picker",
       "description": "Simple shader version picker for z3y shaders, to help you pick the right shader release for your Unity project.",
